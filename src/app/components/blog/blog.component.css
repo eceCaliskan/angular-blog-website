@@ -1,17 +1,19 @@
-.blog {
+.post {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post:hover {
+    box-shadow: 0 8px 90px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul {
     list-style: none;
 }
 
-.post {
-    margin: 40px;
-    padding: 20px;
-    border-style: ridge;
-}
-
-.post:first-child {
-    margin-top: 80px;
-}
-
-h4 {
-    text-align: right;
+.container {
+    padding: 2px 16px;
 }

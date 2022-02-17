@@ -2,14 +2,16 @@
     "posts": [{
             "id": 1,
             "postheading": "Heading 1",
-            "postbody": "This is my first post",
-            "author": "Ece Cal"
+            "postbody": "Ultricies tristique nulla aliquet enim. Neque convallis a cras semper auctor neque. Et magnis dis parturient montes nascetur ridiculus mus. Et netus et malesuada fames ac turpis. Faucibus interdum posuere lorem ipsum. Vel orci porta non pulvinar neque laoreet. Etiam sit amet nisl purus. Non consectetur a erat nam at lectus urna. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Nisl pretium fusce id velit ut tortor pretium viverra suspendisse. Dui id ornare arcu odio ut sem.",
+            "author": "Ece Cal",
+            "date": "May 16 2021"
         },
         {
             "id": 2,
             "postheading": "Heading 2",
-            "postbody": "This is my second post",
-            "author": "Ece Cal"
+            "postbody": "Lectus proin nibh nisl condimentum id venenatis. Ultrices eros in cursus turpis massa. Risus nec feugiat in fermentum posuere. Bibendum est ultricies integer quis auctor. Odio pellentesque diam volutpat commodo. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Morbi tincidunt ornare massa eget egestas purus. Enim tortor at auctor urna nunc. Mus mauris vitae ultricies leo integer malesuada nunc vel risus. Nulla malesuada pellentesque elit eget. Morbi tristique senectus et netus et malesuada. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Penatibus et magnis dis parturient montes nascetur. Hendrerit dolor magna eget est lorem ipsum. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. At lectus urna duis convallis convallis tellus id interdum velit.",
+            "author": "Ece Cal",
+            "date": "June 20 2021"
         }
     ]
 }

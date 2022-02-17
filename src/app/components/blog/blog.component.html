@@ -1,7 +1,10 @@
 <ul class="blog">
-    <li class="post" *ngFor="let post of posts">
-        <h3>{{ post.postheading }}</h3>
-        <p>{{post.postbody}}</p>
-        <h4>{{post.author}}</h4>
-    </li>
+    <div class="container">
+        <li class="post" *ngFor="let post of posts">
+            <h3>{{ post.postheading }}</h3>
+            <p>{{post.postbody}}</p>
+            <h4>{{post.author}}</h4>
+            <i>{{post.date}}</i>
+        </li>
+    </div>
 </ul>
