@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AddBlogComponent } from './components/add-blog/add-blog.component';
+import { ButtonComponent } from './components/button/button.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { AddBlogComponent } from './components/add-blog/add-blog.component';
     HeaderComponent,
     BlogComponent,
     ContactComponent,
-    AddBlogComponent
+    AddBlogComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

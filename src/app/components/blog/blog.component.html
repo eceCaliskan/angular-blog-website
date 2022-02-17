@@ -4,7 +4,7 @@
             <h3>{{ post.postheading }}</h3>
             <p>{{post.postbody}}</p>
             <h4>{{post.author}}</h4>
-            <i>{{post.date}}</i>
+            <i>{{post.date |date:'medium'}}</i>
         </li>
     </div>
 </ul>

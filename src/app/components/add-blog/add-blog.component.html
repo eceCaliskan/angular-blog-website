@@ -1,17 +1,17 @@
 <form>
     <label for="blogHeading">Blog Header</label>
     <br>
-    <textarea name="blogHeading" id="blogHeading" cols="100" rows="3" placeholder="Enter the Post Heading"></textarea>
+    <textarea name="blogHeading" id="blogHeading" [(ngModel)]="postheading" cols="100" rows="3" placeholder="Enter the Post Heading"></textarea>
     <br>
-    <label for="blog">Blog Text</label>
+    <label for="postbody">Blog Text</label>
     <br>
-    <textarea name="blog" id="blog" cols="100" rows="20" placeholder="Enter the Post text"></textarea>
+    <textarea name="postbody" id="blpostbodyog" cols="100" rows="20" [(ngModel)]="postbody" placeholder="Enter the Post text"></textarea>
     <br>
     <label for="author">Author</label>
     <br>
-    <textarea name="author" id="blog" cols="100" rows="3" placeholder="Author"></textarea>
+    <textarea name="author" id="blog" cols="100" [(ngModel)]="author" rows="3" placeholder="Author"></textarea>
     <br>
-    <button type="submit">Submit</button>
+    <button (click)="addClick()">Submit</button>
 
     <br>
 </form>
