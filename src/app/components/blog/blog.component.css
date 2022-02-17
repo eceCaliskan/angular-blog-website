@@ -1,0 +1,13 @@
+.blog {
+    list-style: none;
+}
+
+.post {
+    margin: 40px;
+    padding: 20px;
+    border-style: ridge;
+}
+
+.post:first-child {
+    margin-top: 80px;
+}
