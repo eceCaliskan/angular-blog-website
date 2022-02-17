@@ -1,0 +1,15 @@
+{
+    "posts": [{
+            "id": 1,
+            "postheading": "Heading 1",
+            "postbody": "This is my first post",
+            "author": "Ece Cal"
+        },
+        {
+            "id": 2,
+            "postheading": "Heading 2",
+            "postbody": "This is my second post",
+            "author": "Ece Cal"
+        }
+    ]
+}

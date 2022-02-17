@@ -11,3 +11,7 @@
 .post:first-child {
     margin-top: 80px;
 }
+
+h4 {
+    text-align: right;
+}
