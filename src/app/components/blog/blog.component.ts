@@ -10,13 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 posts!: any[];
+data!: any;
   constructor(private postService: PostService) { }
 
   ngOnInit() {
     this.postService.getUsers().subscribe(data => {
-      console.log(data);
+
       this.posts = data;
     })
+
+   
   }
 
 }

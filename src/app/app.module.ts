@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AddBlogComponent } from './components/add-blog/add-blog.component';
 import { ButtonComponent } from './components/button/button.component';
 import { FormsModule } from '@angular/forms';
+import { BlogpostComponent } from './blogpost/blogpost.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     BlogComponent,
     ContactComponent,
     AddBlogComponent,
-    ButtonComponent
+    ButtonComponent,
+    BlogpostComponent
   ],
   imports: [
     BrowserModule,

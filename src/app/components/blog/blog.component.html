@@ -1,10 +1,15 @@
 <ul class="blog">
     <div class="container">
+
         <li class="post" *ngFor="let post of posts">
-            <h3>{{ post.postheading }}</h3>
-            <p>{{post.postbody}}</p>
+
+            <a [routerLink]="['../post',post.id]">{{post.postheading}}</a>
+
+            <p>{{post.postsummary}}</p>
             <h4>{{post.author}}</h4>
             <i>{{post.date |date:'medium'}}</i>
         </li>
+
     </div>
 </ul>
+<router-outlet></router-outlet>

@@ -23,4 +23,11 @@ public baseUrl = "http://localhost:5000/posts";
    public addUsers(post: any): Observable<any> {
     return this.httpClient.post(this.baseUrl, post, httpOptions);
   }
+
+  public getPost(id: number): Observable<any> {
+    this.baseUrl = `http://localhost:5000/posts/`+ id;
+
+    return this.httpClient.get(this.baseUrl);
+
+  }
 }
