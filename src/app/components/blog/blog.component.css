@@ -6,6 +6,12 @@
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: purple;
+    font-size: x-large;
+}
+
 .post:hover {
     box-shadow: 0 8px 90px 0 rgba(0, 0, 0, 0.2);
 }

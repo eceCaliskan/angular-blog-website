@@ -9,8 +9,9 @@ import { PostService } from './../../service/post.service';
 export class AddBlogComponent implements OnInit {
 postheading !: String;
 postbody !: String;
+postsummary !: String;
 author !: String;
-date =new Date().toISOString()
+date =new Date()
 posts!: any[];
 
   constructor(private postService: PostService) { }
@@ -23,9 +24,11 @@ posts!: any[];
    const newTask = {
 
      postheading: this.postheading,
+     postsummary: this.postsummary,
      postbody: this.postbody,
      author: this.author,
-     date: this.date
+     date: this.date ,
+
    }
    console.log("ok")
 this.postService.addUsers(newTask).subscribe((task)=>(this.posts.push(task)));
