@@ -1,5 +1,6 @@
 import { PostService } from './../../service/post.service';
 import { Component, OnInit } from '@angular/core';
+import { Blog } from './../../Blog';
 
 
 
@@ -19,7 +20,7 @@ data!: any;
       this.posts = data;
     })
 
-   
+
   }
 
 }

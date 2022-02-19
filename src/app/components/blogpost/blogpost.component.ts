@@ -1,6 +1,8 @@
+import { Blog } from './../../Blog';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PostService } from './../../service/post.service';
+
 
 @Component({
   selector: 'app-blogpost',
@@ -10,13 +12,16 @@ import { PostService } from './../../service/post.service';
 export class BlogpostComponent implements OnInit {
 id:any;
 data:any;
+
   constructor(private _Activatedroute:ActivatedRoute, private postService: PostService) { }
 
 
   ngOnInit(): void {
+
+
      this.id=this._Activatedroute.snapshot.paramMap.get("post");
        this.postService.getPost(this.id).subscribe(data => {
-    this.data = data as string[];
+        this.data = data as Blog[];
         console.log(data)
     })
   }

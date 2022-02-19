@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from './../../service/post.service';
+import { Blog } from './../../Blog';
 
 @Component({
   selector: 'app-add-blog',
@@ -21,7 +22,7 @@ posts!: any[];
 
 
  addClick(){
-   const newTask = {
+   const newTask= {
 
      postheading: this.postheading,
      postsummary: this.postsummary,
