@@ -1,6 +1,11 @@
 # Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+The project enables users to add and delete blog posts and read the individual blogs. A rest api is used to store the blogs and Angular router is to navigate within the website.
+
+## Technologies
+
+- Angular
+- Rest Api
 
 ## Installing the Node Modules
 
